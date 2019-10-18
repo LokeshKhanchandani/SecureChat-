@@ -3,7 +3,7 @@
     package="com.example.lokesh.amul">
 
     <uses-feature android:name="android.hardware.wifi" />
-
+    <!-- Dependencies required for this application      -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -26,5 +26,6 @@
         <activity android:name=".ChatActivity" />
         <activity android:name=".TestActivity"></activity>
     </application>
+<!--     This project has 3 activities MainActivity, ChatActivity and TestActivity in which MainActivity is laucher -->
 
 </manifest>
